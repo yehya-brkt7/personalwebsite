@@ -1,0 +1,48 @@
+import React from "react";
+import style from "../styles/projectcard.module.css";
+import { Grid } from "@mui/material";
+
+const ProjectCard = (props) => {
+  return (
+    <>
+      <figure class={style.figure}>
+        <Grid container justifyContent="center" direction="row">
+          <Grid item xs={2}>
+            <h1 class={style.h1}>{props.title}</h1>
+          </Grid>
+          <Grid item xs={10}></Grid>
+          <Grid item xs={11}>
+            <img class={style.img} src={props.image} alt="" />
+          </Grid>
+
+          <figcaption class={style.figcaption}>
+            <Grid item xs={12} marginBottom="20px">
+              <a href={props.codelink} target="_blank">
+                <button class={style.button} disabled={props.check}>
+                  Code
+                </button>
+              </a>
+            </Grid>
+            <Grid item xs={12}>
+              <h3 class={style.h3}>Description</h3>
+
+              <p class={style.p}>{props.info}</p>
+              <p class={style.p}>{props.info2}</p>
+              <p class={style.p}>{props.info3}</p>
+              <p class={style.p}>{props.info4}</p>
+            </Grid>
+            <Grid item xs={12}>
+              <a href={props.link} target="_blank">
+                <button class={style.button} disabled={props.check}>
+                  Link
+                </button>
+              </a>
+            </Grid>
+          </figcaption>
+        </Grid>
+      </figure>
+    </>
+  );
+};
+
+export default ProjectCard;

@@ -1,0 +1,88 @@
+#divs {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 25px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  line-height: 45px;
+}
+
+.firstword {
+  /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+  /* animation: showup 7s infinite; */
+  animation-name: showup;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  color: #856b0b;
+}
+
+.division {
+  width: 0px;
+  /* animation: reveal 7s infinite; */
+  animation-name: reveal;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.division span {
+  margin-left: -600px;
+  /* animation: slidein 7s infinite; */
+  animation-name: slidein;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 600px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 600px;
+  }
+}
