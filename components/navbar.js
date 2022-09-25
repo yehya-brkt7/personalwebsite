@@ -52,7 +52,7 @@ const Navbar = () => {
                 </rect>
 
                 <text x="50%" y="60%" textAnchor="middle" className="title">
-                  Hi, I'm Yehya Barakat
+                  Hi, I am Yehya Barakat
                 </text>
               </svg>
             </div>
