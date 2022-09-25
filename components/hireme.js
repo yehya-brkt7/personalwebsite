@@ -35,7 +35,7 @@ const Hireme = () => {
           <Grid container justifyContent="center">
             <Grid item xs={12}>
               <div class={style.hire}>
-                <a href="/projects">
+                <a href="/resume" target="_blank">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -63,7 +63,10 @@ const Hireme = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a
+                      href="https://www.linkedin.com/in/yehya-barakat-1b1251131/"
+                      target="_blank"
+                    >
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
