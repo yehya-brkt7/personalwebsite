@@ -13,10 +13,10 @@ const AboutMe = () => {
     <>
       <div>
         <input type="checkbox" id="active"></input>
-        <label htmlfor="active" className="menu-btn">
+        <label htmlFor="active" className="menu-btn">
           <span></span>
         </label>
-        <label htmlfor="active" className="close"></label>
+        <label htmlFor="active" className="close"></label>
         <div className="wrapper">
           <ul>
             <li>
@@ -44,7 +44,7 @@ const AboutMe = () => {
           <div id={style.divs} className={style.division}>
             <span className={style.sentence}>
               a Front end web developer specializing in React. <br></br>
-              24, from Lebanon and looking htmlfor an opportunity <br></br> to
+              24, from Lebanon and looking htmlFor an opportunity <br></br> to
               enter the professional world of web development <br></br> about a
               year of experience as a React developer
               <br></br> 4 months experience as a React developer intern
@@ -54,7 +54,7 @@ const AboutMe = () => {
         <div className="mobilecontent">
           <span>
             I am a Front end web developer specializing in React. I am 24, from
-            Lebanon and looking htmlfor an opportunity to enter the professional
+            Lebanon and looking htmlFor an opportunity to enter the professional
             world of web development. I have about a year of experience as a
             React developer and 4 months experience as a React developer intern
           </span>

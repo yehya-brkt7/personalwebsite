@@ -49,7 +49,7 @@ const Card = (props) => {
               3,172<span>Streams</span>
             </p>
           </div> */}
-          <a href={props.link} target="_blank">
+          <a href={props.link} target="_blank" rel="noreferrer">
             <button className={style.btn} disabled={props.check}>
               Visit website
             </button>

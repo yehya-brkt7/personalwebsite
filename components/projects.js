@@ -15,10 +15,10 @@ const Projects = () => {
     <>
       <div className={style.container}>
         <input type="checkbox" id="active" />
-        <label htmlfor="active" className="menu-btn">
+        <label htmlFor="active" className="menu-btn">
           <span></span>
         </label>
-        <label htmlfor="active" className="close"></label>
+        <label htmlFor="active" className="close"></label>
         <div className="wrapper">
           <ul>
             <li>
@@ -45,7 +45,7 @@ const Projects = () => {
               className={style.input}
               type="radio"
               name="fancy"
-              autofocus
+              autoFocus
               value="clubs"
               id="clubs"
             ></input>
@@ -71,7 +71,7 @@ const Projects = () => {
               id="diamonds"
             ></input>
 
-            <label className={style.label} htmlfor="clubs">
+            <label className={style.label} htmlFor="clubs">
               <span className={style.span}>
                 <ProjectCard
                   title="internship"
@@ -85,7 +85,7 @@ const Projects = () => {
               </span>
             </label>
 
-            <label className={style.label} htmlfor="hearts">
+            <label className={style.label} htmlFor="hearts">
               <span className={style.span}>
                 <ProjectCard
                   title="Football App"

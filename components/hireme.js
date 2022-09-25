@@ -8,10 +8,10 @@ const Hireme = () => {
     <>
       <div>
         <input type="checkbox" id="active"></input>
-        <label htmlfor="active" className="menu-btn">
+        <label htmlFor="active" className="menu-btn">
           <span></span>
         </label>
-        <label htmlfor="active" className="close"></label>
+        <label htmlFor="active" className="close"></label>
         <div className="wrapper">
           <ul>
             <li>
@@ -35,7 +35,7 @@ const Hireme = () => {
           <Grid container justifyContent="center">
             <Grid item xs={12}>
               <div className={style.hire}>
-                <a href="/resume" target="_blank">
+                <a href="/resume" target="_blank" rel="noreferrer">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -52,13 +52,18 @@ const Hireme = () => {
                       <a
                         href="https://www.instagram.com/yehya_brkt/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                   </Grid>
                   <li>
-                    <a href="https://github.com/yehya-brkt7" target="_blank">
+                    <a
+                      href="https://github.com/yehya-brkt7"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
@@ -66,6 +71,7 @@ const Hireme = () => {
                     <a
                       href="https://www.linkedin.com/in/yehya-barakat-1b1251131/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-linkedin"></i>
                     </a>
