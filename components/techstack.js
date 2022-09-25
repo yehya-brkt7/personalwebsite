@@ -13,11 +13,11 @@ const TechStack = () => {
     <>
       <div>
         <input type="checkbox" id="active" />
-        <label for="active" class="menu-btn">
+        <label htmlfor="active" className="menu-btn">
           <span></span>
         </label>
-        <label for="active" class="close"></label>
-        <div class="wrapper">
+        <label htmlfor="active" className="close"></label>
+        <div className="wrapper">
           <ul>
             <li>
               <Link href="/">Home</Link>

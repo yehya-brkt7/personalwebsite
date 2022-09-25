@@ -12,11 +12,11 @@ const Navbar = () => {
     <>
       <div>
         <input type="checkbox" id="active" />
-        <label for="active" class="menu-btn">
+        <label for="active" className="menu-btn">
           <span></span>
         </label>
-        <label for="active" class="close"></label>
-        <div class="wrapper">
+        <label for="active" className="close"></label>
+        <div className="wrapper">
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -35,11 +35,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div class="maincontent">
-          {/* <div class="title">Hello, My name is Yehya Barakat</div>
+        <div className="maincontent">
+          {/* <div className="title">Hello, My name is Yehya Barakat</div>
           <p>Welcome to my portfolio</p> */}
-          <div class="bodytext">
-            <div class="patterns">
+          <div className="bodytext">
+            <div className="patterns">
               <svg width="100%" height="100%">
                 <rect
                   x="0"

@@ -15,11 +15,11 @@ const Projects = () => {
     <>
       <div className={style.container}>
         <input type="checkbox" id="active" />
-        <label for="active" class="menu-btn">
+        <label htmlfor="active" className="menu-btn">
           <span></span>
         </label>
-        <label for="active" class="close"></label>
-        <div class="wrapper">
+        <label htmlfor="active" className="close"></label>
+        <div className="wrapper">
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -39,7 +39,7 @@ const Projects = () => {
           </ul>
         </div>
 
-        <div class="projectscontent">
+        <div className="projectscontent">
           <form className={style.form}>
             <input
               className={style.input}
@@ -71,7 +71,7 @@ const Projects = () => {
               id="diamonds"
             ></input>
 
-            <label className={style.label} for="clubs">
+            <label className={style.label} htmlfor="clubs">
               <span className={style.span}>
                 <ProjectCard
                   title="internship"
@@ -85,7 +85,7 @@ const Projects = () => {
               </span>
             </label>
 
-            <label className={style.label} for="hearts">
+            <label className={style.label} htmlfor="hearts">
               <span className={style.span}>
                 <ProjectCard
                   title="Football App"
@@ -113,7 +113,7 @@ const Projects = () => {
               </span>
             </label> */}
 
-            {/* <div class="keys">Use left and right keys to navigate</div> */}
+            {/* <div className="keys">Use left and right keys to navigate</div> */}
           </form>
         </div>
       </div>

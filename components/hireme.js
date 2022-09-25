@@ -8,11 +8,11 @@ const Hireme = () => {
     <>
       <div>
         <input type="checkbox" id="active"></input>
-        <label for="active" class="menu-btn">
+        <label htmlfor="active" className="menu-btn">
           <span></span>
         </label>
-        <label for="active" class="close"></label>
-        <div class="wrapper">
+        <label htmlfor="active" className="close"></label>
+        <div className="wrapper">
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -31,10 +31,10 @@ const Hireme = () => {
             </li>
           </ul>
         </div>
-        <div class="maincontent">
+        <div className="maincontent">
           <Grid container justifyContent="center">
             <Grid item xs={12}>
-              <div class={style.hire}>
+              <div className={style.hire}>
                 <a href="/resume" target="_blank">
                   <span></span>
                   <span></span>
@@ -45,21 +45,21 @@ const Hireme = () => {
               </div>
             </Grid>
             <Grid item xs={12} marginTop="50px">
-              <div class={style["social-container"]}>
-                <ul class={style["social-icons"]}>
+              <div className={style["social-container"]}>
+                <ul className={style["social-icons"]}>
                   <Grid item xs={12}>
                     <li>
                       <a
                         href="https://www.instagram.com/yehya_brkt/"
                         target="_blank"
                       >
-                        <i class="fa fa-instagram"></i>
+                        <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                   </Grid>
                   <li>
                     <a href="https://github.com/yehya-brkt7" target="_blank">
-                      <i class="fa fa-github"></i>
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
                   <li>
@@ -67,12 +67,12 @@ const Hireme = () => {
                       href="https://www.linkedin.com/in/yehya-barakat-1b1251131/"
                       target="_blank"
                     >
-                      <i class="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   {/* <li>
                 <a href="#">
-                  <i class={style["fa fa-codepen"]}></i>
+                  <i className={style["fa fa-codepen"]}></i>
                 </a>
               </li> */}
                 </ul>
