@@ -221,7 +221,8 @@ input[type="checkbox"] {
 @media only screen and (max-width: 600px) {
   .content {
     /* top: 160%; */
-    left: 65%;
+    /* left: 65%; */
+    margin-left: 10%;
     margin-top: 300px;
   }
 
