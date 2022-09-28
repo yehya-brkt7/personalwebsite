@@ -38,7 +38,12 @@
 .game {
   position: relative;
   width: 12rem;
+  color: #ddd;
 }
+
+.status {
+}
+
 .streamers {
   display: flex;
   text-align: center;
@@ -151,6 +156,7 @@
   font-weight: bold;
   font-size: 1.12rem;
   background: rgba(0, 0, 0, 0.75);
+  color: #ddd;
   padding: 0.5em 0.5em;
   clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
   transition: 250ms ease-in-out;

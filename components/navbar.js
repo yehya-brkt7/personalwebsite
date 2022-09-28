@@ -10,59 +10,69 @@ const h3 = {
 const Navbar = () => {
   return (
     <>
-      <div>
-        <input type="checkbox" id="active" />
-        <label htmlFor="active" className="menu-btn">
-          <span></span>
-        </label>
-        <label htmlFor="active" className="close"></label>
-        <div className="wrapper">
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/aboutme">AboutMe</Link>
-            </li>
-            <li>
-              <Link href="/techstack">TechStack</Link>
-            </li>
-            <li>
-              <Link href="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link href="/hireme">Hireme</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="maincontent">
-          {/* <div className="title">Hello, My name is Yehya Barakat</div>
-          <p>Welcome to my portfolio</p> */}
-          <div className="bodytext">
-            <div className="patterns">
-              <svg width="100%" height="100%">
-                <rect
-                  x="0"
-                  y="0"
-                  width="100%"
-                  height="100%"
-                  fill="url(#polka-dots)"
-                >
-                  {" "}
-                </rect>
+      <input
+        id="page-nav-toggle"
+        class="main-navigation-toggle"
+        type="checkbox"
+      />
+      <label for="page-nav-toggle">
+        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+          <g class="icon-group">
+            <g class="icon--menu">
+              <path d="M 6 0 L 54 0" />
+              <path d="M 6 15 L 54 15" />
+              <path d="M 6 30 L 54 30" />
+            </g>
+            <g class="icon--close">
+              <path d="M 15 0 L 45 30" />
+              <path d="M 15 30 L 45 0" />
+            </g>
+          </g>
+        </svg>
+      </label>
 
-                <text x="50%" y="60%" textAnchor="middle" className="title">
-                  Hi, I am Yehya Barakat
-                </text>
-              </svg>
-            </div>
-            <h3 className="header3">
-              A CS Graduate and a Front-End Web Developer <br></br>
-              <br></br>Click the menu button on top to view more about me
-            </h3>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#0">Home</a>
+          </li>
+          <li>
+            <a href="#0">About</a>
+          </li>
+          <li>
+            <a href="#0">Contact</a>
+          </li>
+          <li>
+            <a href="#0">Dance</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main className="main-content">
+        <div className="bodytext">
+          <div className="patterns">
+            <svg width="100%" height="100%">
+              <rect
+                x="0"
+                y="0"
+                width="100%"
+                height="100%"
+                fill="url(#polka-dots)"
+              >
+                {" "}
+              </rect>
+
+              <text x="50%" y="60%" textAnchor="middle" className="title">
+                Hi, I am Yehya Barakat
+              </text>
+            </svg>
           </div>
+          <h3 className="header3">
+            A CS Graduate and a Front-End Web Developer <br></br>
+            <br></br>Click the menu button on top to view more about me
+          </h3>
         </div>
-      </div>
+      </main>
     </>
   );
 };

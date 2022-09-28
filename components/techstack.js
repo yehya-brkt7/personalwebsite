@@ -11,105 +11,123 @@ const h3 = {
 const TechStack = () => {
   return (
     <>
-      <div>
-        <input type="checkbox" id="active" />
-        <label htmlFor="active" className="menu-btn">
-          <span></span>
-        </label>
-        <label htmlFor="active" className="close"></label>
-        <div className="wrapper">
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/aboutme">AboutMe</Link>
-            </li>
-            <li>
-              <Link href="/techstack">TechStack</Link>
-            </li>
-            <li>
-              <Link href="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link href="/hireme">Hireme</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="content">
-          <Grid container justifyContent="center" marginLeft="50px">
-            <Grid item xs={12} marginTop="120px"></Grid>
+      <input
+        id="page-nav-toggle"
+        class="main-navigation-toggle"
+        type="checkbox"
+      />
+      <label for="page-nav-toggle">
+        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+          <g class="icon-group">
+            <g class="icon--menu">
+              <path d="M 6 0 L 54 0" />
+              <path d="M 6 15 L 54 15" />
+              <path d="M 6 30 L 54 30" />
+            </g>
+            <g class="icon--close">
+              <path d="M 15 0 L 45 30" />
+              <path d="M 15 30 L 45 0" />
+            </g>
+          </g>
+        </svg>
+      </label>
 
-            <Grid
-              item
-              xs={10}
-              sm={5}
-              md={4}
-              marginBottom="50px"
-              className="firstcard"
-            >
-              <Card
-                title="React"
-                language="Js"
-                type="library"
-                link="https://reactjs.org/"
-                image="react.jpg"
-              />
-            </Grid>
-            {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-              <Card
-                title="Next"
-                language="Js"
-                type="framework"
-                link="https://nextjs.org/"
-                image="next.png"
-              />
-            </Grid>
-            {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-              <Card
-                title="HTML"
-                language="html"
-                type="Markup language"
-                link="https://html.com/"
-                image="html.png"
-              />
-            </Grid>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#0">Home</a>
+          </li>
+          <li>
+            <a href="#0">About</a>
+          </li>
+          <li>
+            <a href="#0">Contact</a>
+          </li>
+          <li>
+            <a href="#0">Dance</a>
+          </li>
+        </ul>
+      </nav>
 
-            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-              <Card
-                title="Css"
-                language="css"
-                type="bootstrap"
-                link="https://www.w3schools.com/css/"
-                image="css.png"
-              />
-            </Grid>
-            {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-              <Card
-                title="Component Libraries"
-                language="Js"
-                type="MUI - CHAKRA UI - MANTINE UI"
-                link="https://reactjs.org/"
-                image="mui.png"
-                check={true}
-              />
-            </Grid>
-            {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={10} sm={5} md={4} marginBottom="30px">
-              <Card
-                title="State Management"
-                language="Js"
-                type="Zustand"
-                link="https://github.com/pmndrs/zustand"
-                image="zustand.avif"
-              />
-            </Grid>
+      <main className="main-content">
+        <Grid
+          container
+          justifyContent="center"
+          marginLeft="30px"
+          className="content"
+          spacing={4}
+        >
+          <Grid item xs={12}></Grid>
+
+          <Grid
+            item
+            xs={10}
+            sm={5}
+            md={4}
+            marginBottom="50px"
+            className="firstcard"
+          >
+            <Card
+              title="React"
+              language="Js"
+              type="library"
+              link="https://reactjs.org/"
+              image="react.jpg"
+            />
           </Grid>
-        </div>
-      </div>
+          {/* <Grid item sm={2}></Grid> */}
+          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
+            <Card
+              title="Next"
+              language="Js"
+              type="framework"
+              link="https://nextjs.org/"
+              image="next.png"
+            />
+          </Grid>
+          {/* <Grid item sm={2}></Grid> */}
+          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
+            <Card
+              title="HTML"
+              language="html"
+              type="Markup language"
+              link="https://html.com/"
+              image="html.png"
+            />
+          </Grid>
+
+          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
+            <Card
+              title="Css"
+              language="css"
+              type="bootstrap - css/scss modules"
+              link="https://www.w3schools.com/css/"
+              image="css.png"
+            />
+          </Grid>
+          {/* <Grid item sm={2}></Grid> */}
+          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
+            <Card
+              title="Component Libraries"
+              language="Js"
+              type="MUI - CHAKRA UI - MANTINE UI"
+              link="https://reactjs.org/"
+              image="mui.png"
+              check={true}
+            />
+          </Grid>
+          {/* <Grid item sm={2}></Grid> */}
+          <Grid item xs={10} sm={5} md={4} marginBottom="30px">
+            <Card
+              title="State Management"
+              language="Js"
+              type="Zustand"
+              link="https://github.com/pmndrs/zustand"
+              image="zustand.avif"
+            />
+          </Grid>
+        </Grid>
+      </main>
     </>
   );
 };

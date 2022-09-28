@@ -29,11 +29,15 @@
 }
 
 .division span {
-  margin-left: -600px;
+  margin-left: -700px;
   /* animation: slidein 7s infinite; */
   animation-name: slidein;
   animation-duration: 20s;
   animation-iteration-count: infinite;
+}
+
+.sentence {
+  color: white;
 }
 
 @keyframes showup {
@@ -76,13 +80,13 @@
     width: 0px;
   }
   30% {
-    width: 600px;
+    width: 700px;
   }
   80% {
     opacity: 1;
   }
   100% {
     opacity: 0;
-    width: 600px;
+    width: 700px;
   }
 }
