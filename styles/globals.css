@@ -168,14 +168,15 @@ input[type="checkbox"] {
 }
 .content {
   position: absolute;
-  top: 60%;
-  left: 55%;
+  top: 420px;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
   text-align: center;
   width: 100%;
   font-weight: lighter;
   /* color: #202020; */
+  /* background-color: red; */
   color: white;
 
   /* height: 50%; */
@@ -220,14 +221,11 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 600px) {
   .content {
-    /* top: 160%; */
     /* left: 65%; */
-    margin-left: 10%;
-    margin-top: 300px;
   }
 
   .firstcard {
-    margin-top: 100px;
+    margin-top: 700px;
   }
 }
 

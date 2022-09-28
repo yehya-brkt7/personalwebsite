@@ -37,12 +37,12 @@ const TechStack = () => {
           </ul>
         </div>
         <div className="content">
-          <Grid container justifyContent="center" backgroundColor="red">
-            <Grid item xs={12}></Grid>
+          <Grid container justifyContent="center" marginLeft="50px">
+            <Grid item xs={12} marginTop="120px"></Grid>
 
             <Grid
               item
-              xs={12}
+              xs={10}
               sm={5}
               md={4}
               marginBottom="50px"
@@ -57,7 +57,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
+            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
               <Card
                 title="Next"
                 language="Js"
@@ -67,7 +67,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
+            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
               <Card
                 title="HTML"
                 language="html"
@@ -77,7 +77,7 @@ const TechStack = () => {
               />
             </Grid>
 
-            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
+            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
               <Card
                 title="Css"
                 language="css"
@@ -87,7 +87,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
+            <Grid item xs={10} sm={5} md={4} marginBottom="50px">
               <Card
                 title="Component Libraries"
                 language="Js"
@@ -98,7 +98,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4} marginBottom="30px">
+            <Grid item xs={10} sm={5} md={4} marginBottom="30px">
               <Card
                 title="State Management"
                 language="Js"
