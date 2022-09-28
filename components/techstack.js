@@ -37,10 +37,17 @@ const TechStack = () => {
           </ul>
         </div>
         <div className="content">
-          <Grid container justifyContent="center" spacing={8}>
+          <Grid container justifyContent="center">
             <Grid item xs={12}></Grid>
 
-            <Grid item xs={12} sm={5} md={4}>
+            <Grid
+              item
+              xs={12}
+              sm={5}
+              md={4}
+              marginBottom="50px"
+              className="firstcard"
+            >
               <Card
                 title="React"
                 language="Js"
@@ -50,7 +57,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4}>
+            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
               <Card
                 title="Next"
                 language="Js"
@@ -60,7 +67,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4}>
+            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
               <Card
                 title="HTML"
                 language="html"
@@ -70,7 +77,7 @@ const TechStack = () => {
               />
             </Grid>
 
-            <Grid item xs={12} sm={5} md={4}>
+            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
               <Card
                 title="Css"
                 language="css"
@@ -80,7 +87,7 @@ const TechStack = () => {
               />
             </Grid>
             {/* <Grid item sm={2}></Grid> */}
-            <Grid item xs={12} sm={5} md={4}>
+            <Grid item xs={12} sm={5} md={4} marginBottom="50px">
               <Card
                 title="Component Libraries"
                 language="Js"
