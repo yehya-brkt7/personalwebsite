@@ -37,7 +37,7 @@ const TechStack = () => {
           </ul>
         </div>
         <div className="content">
-          <Grid container justifyContent="center">
+          <Grid container justifyContent="center" backgroundColor="red">
             <Grid item xs={12}></Grid>
 
             <Grid
