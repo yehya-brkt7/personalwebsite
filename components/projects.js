@@ -15,18 +15,18 @@ const Projects = () => {
     <>
       <input
         id="page-nav-toggle"
-        class="main-navigation-toggle"
+        className="main-navigation-toggle"
         type="checkbox"
       />
-      <label for="page-nav-toggle">
-        <svg class="icon--menu-toggle" viewBox="0 0 60 30">
-          <g class="icon-group">
-            <g class="icon--menu">
+      <label htmlFor="page-nav-toggle">
+        <svg className="icon--menu-toggle" viewBox="0 0 60 30">
+          <g className="icon-group">
+            <g className="icon--menu">
               <path d="M 6 0 L 54 0" />
               <path d="M 6 15 L 54 15" />
               <path d="M 6 30 L 54 30" />
             </g>
-            <g class="icon--close">
+            <g className="icon--close">
               <path d="M 15 0 L 45 30" />
               <path d="M 15 30 L 45 0" />
             </g>
@@ -34,22 +34,22 @@ const Projects = () => {
         </svg>
       </label>
 
-      <nav class="main-navigation">
+      <nav className="main-navigation">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/aboutme">About Me</a>
+            <Link href="/aboutme">About Me</Link>
           </li>
           <li>
-            <a href="/techstack">Tech Stack</a>
+            <Link href="/techstack">Tech Stack</Link>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <Link href="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/hireme">Hire me</a>
+            <Link href="/hireme">Hire me</Link>
           </li>
         </ul>
       </nav>
@@ -115,7 +115,7 @@ const Projects = () => {
             </span>
           </label>
 
-          <div class="keys">Use left and right keys to navigate</div>
+          <div className="keys">Use left and right keys to navigate</div>
         </form>
       </main>
     </>
