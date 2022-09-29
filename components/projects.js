@@ -60,7 +60,7 @@ const Projects = () => {
             className={style.input}
             type="radio"
             name="fancy"
-            autofocus
+            autoFocus
             value="clubs"
             id="clubs"
           ></input>
