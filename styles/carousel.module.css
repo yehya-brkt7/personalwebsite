@@ -20,6 +20,13 @@
   right: 0;
   white-space: nowrap;
 }
+
+@media only screen and (max-width: 600px) {
+  .form {
+    white-space: normal;
+  }
+}
+
 .input {
   position: absolute;
 }

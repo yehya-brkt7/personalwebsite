@@ -85,6 +85,7 @@ const Projects = () => {
             value="diamonds"
             id="diamonds"
           /> */}
+
           <label className={style.label} htmlFor="clubs">
             <span className={style.span}>
               <ProjectCard
