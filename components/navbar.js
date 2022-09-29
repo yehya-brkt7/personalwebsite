@@ -34,16 +34,19 @@ const Navbar = () => {
       <nav class="main-navigation">
         <ul>
           <li>
-            <a href="#0">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#0">About</a>
+            <a href="/aboutme">About Me</a>
           </li>
           <li>
-            <a href="#0">Contact</a>
+            <a href="/techstack">Tech Stack</a>
           </li>
           <li>
-            <a href="#0">Dance</a>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/hireme">Hire me</a>
           </li>
         </ul>
       </nav>

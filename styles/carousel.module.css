@@ -1,11 +1,11 @@
 .label {
-  background: #444;
+  background: black;
   color: #fff;
   transition: transform 400ms ease-out;
   display: inline-block;
   min-height: 100%;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -14,15 +14,14 @@
 
 .form {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -50px;
+  left: -8px;
   bottom: 0;
   right: 0;
   white-space: nowrap;
 }
 .input {
   position: absolute;
-  display: none;
 }
 
 .keys {
@@ -66,7 +65,7 @@
 }
 
 .label {
-  background: #000;
+  background: black;
   background-size: cover;
   font-size: 3rem;
 }
@@ -85,7 +84,7 @@
   padding: 1rem;
   font-size: 3rem;
   height: 10rem;
-  // vertical-align: middle;1
+  vertical-align: middle;
   line-height: 10rem;
   top: 50%;
   transform: translate3d(0, -50%, 0);
@@ -104,8 +103,4 @@
   left: 100%;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
-}
-
-.span {
-  font-size: 25px;
 }
