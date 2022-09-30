@@ -116,7 +116,7 @@ const Projects = () => {
             </span>
           </label>
 
-          <div class={style.container}>
+          <div className={style.container}>
             <Grid container justifyContent="center">
               <Grid
                 container
@@ -125,11 +125,11 @@ const Projects = () => {
                 justifyContent="center"
                 marginBottom="60px"
               >
-                <div class={style.card}>
-                  <div class={style.image}>
+                <div className={style.card}>
+                  <div className={style.image}>
                     <img href="#" src="lwah.png"></img>
                   </div>
-                  <div class={style.content}>
+                  <div className={style.content}>
                     <h3>internship</h3>
                     <p>
                       4 months internship at a local company. I alongside a
@@ -153,11 +153,11 @@ const Projects = () => {
                 </div>
               </Grid>
               <Grid container item xs={10} justifyContent="center">
-                <div class={style.card}>
-                  <div class={style.image}>
+                <div className={style.card}>
+                  <div className={style.image}>
                     <img href="#" src="footballapp.png"></img>
                   </div>
-                  <div class={style.content}>
+                  <div className={style.content}>
                     <h3>Football App</h3>
                     <p>
                       football app where any user can randomly pick their
