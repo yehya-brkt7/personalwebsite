@@ -53,7 +53,7 @@ const AboutMe = () => {
       </nav>
 
       <main className="main-content">
-        <div className="aboutmecontent">
+        <div className={style.aboutmecontent}>
           <div id={style.divs} className={style.firstword}>
             I am <br></br> I am <br></br> <br></br> I have
             <br></br> and
@@ -69,14 +69,14 @@ const AboutMe = () => {
             </span>
           </div>
         </div>
-        {/* <div className="mobilecontent">
+        <div className={style.mobilecontent}>
           <span>
             I am a Front end web developer specializing in React. I am 24, from
             Lebanon and looking htmlFor an opportunity to enter the professional
             world of web development. I have about a year of experience as a
             React developer and 4 months experience as a React developer intern
           </span>
-        </div> */}
+        </div>
       </main>
     </>
   );

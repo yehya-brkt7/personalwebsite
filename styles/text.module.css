@@ -90,3 +90,23 @@
     width: 700px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .aboutmecontent {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobilecontent {
+    display: none;
+  }
+}
+
+.mobilecontent {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  line-height: 40px;
+}
