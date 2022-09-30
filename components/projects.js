@@ -116,6 +116,78 @@ const Projects = () => {
             </span>
           </label>
 
+          <div class={style.container}>
+            <Grid container justifyContent="center">
+              <Grid
+                container
+                item
+                xs={10}
+                justifyContent="center"
+                marginBottom="60px"
+              >
+                <div class={style.card}>
+                  <div class={style.image}>
+                    <img href="#" src="lwah.png"></img>
+                  </div>
+                  <div class={style.content}>
+                    <h3>internship</h3>
+                    <p>
+                      4 months internship at a local company. I alongside a
+                      backend developer and a web designer developed a full
+                      stack crud operations web app where doctors can login and
+                      manager their patients
+                    </p>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <button className={style.button} disabled={true}>
+                        Link
+                      </button>
+                    </a>
+                    {"\u00A0"}
+                    {"\u00A0"}
+                    <a href="" target="_blank" rel="noreferrer">
+                      <button className={style.button} disabled={true}>
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </Grid>
+              <Grid container item xs={10} justifyContent="center">
+                <div class={style.card}>
+                  <div class={style.image}>
+                    <img href="#" src="footballapp.png"></img>
+                  </div>
+                  <div class={style.content}>
+                    <h3>Football App</h3>
+                    <p>
+                      football app where any user can randomly pick their
+                      starting 11 + 1 sub with buttons and display some stats.
+                      containes search and filter options
+                    </p>
+
+                    <a
+                      href="https://football-11.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <button className={style.button}>Link</button>
+                    </a>
+
+                    {"\u00A0"}
+                    {"\u00A0"}
+                    <a
+                      href="https://github.com/yehya-brkt7/footballapp"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className={style.button}>Code</button>
+                    </a>
+                  </div>
+                </div>
+              </Grid>
+            </Grid>
+          </div>
+
           <div className="keys">Use left and right keys to navigate</div>
         </form>
       </main>
