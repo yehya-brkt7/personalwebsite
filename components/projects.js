@@ -185,6 +185,38 @@ const Projects = () => {
                   </div>
                 </div>
               </Grid>
+              <Grid container item xs={10} justifyContent="center">
+                <div className={style.card}>
+                  <div className={style.image}>
+                    <img href="#" src="quiz.png"></img>
+                  </div>
+                  <div className={style.content}>
+                    <h3>Sports Quiz App</h3>
+                    <p>
+                      Sports quiz and trivia app about the nba and
+                      football(soccer). Score is calculated at the end.
+                    </p>
+
+                    <a
+                      href="https://sportsquiz.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <button className={style.button}>Link</button>
+                    </a>
+
+                    {"\u00A0"}
+                    {"\u00A0"}
+                    <a
+                      href="https://github.com/yehya-brkt7/sportsquiz"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className={style.button}>Code</button>
+                    </a>
+                  </div>
+                </div>
+              </Grid>
             </Grid>
           </div>
 
