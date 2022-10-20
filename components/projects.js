@@ -71,13 +71,14 @@ const Projects = () => {
             value="hearts"
             id="hearts"
           ></input>
-          {/* <input
+          <input
             className={style.input}
             type="radio"
             name="fancy"
             value="spades"
             id="spades"
           />
+          {/* 
           <input
             className={style.input}
             type="radio"
@@ -112,6 +113,21 @@ const Projects = () => {
                 check={false}
                 codelink="https://github.com/yehya-brkt7/footballapp"
                 link="https://football-11.netlify.app/"
+              />
+            </span>
+          </label>
+          <label className={style.label} htmlFor="spades">
+            <span className={style.span}>
+              <ProjectCard
+                title="Sports Quiz"
+                image="quiz.png"
+                info="Sports quiz and trivia app."
+                info2="about the nba and
+                football(soccer)"
+                info3="Score is calculated at the end."
+                check={false}
+                codelink="https://github.com/yehya-brkt7/sportsquiz"
+                link="https://sportsquiz.vercel.app/"
               />
             </span>
           </label>
