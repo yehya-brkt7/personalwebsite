@@ -121,7 +121,7 @@ const Projects = () => {
               <ProjectCard
                 title="Sports Quiz"
                 image="quiz.png"
-                info="Sports quiz and trivia app."
+                info="Sports quiz and trivia app"
                 info2="about the nba and
                 football(soccer)"
                 info3="Score is calculated at the end."
