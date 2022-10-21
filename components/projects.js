@@ -168,7 +168,13 @@ const Projects = () => {
                   </div>
                 </div>
               </Grid>
-              <Grid container item xs={10} justifyContent="center">
+              <Grid
+                container
+                item
+                xs={10}
+                justifyContent="center"
+                marginBottom="60px"
+              >
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="footballapp.png"></img>
@@ -186,7 +192,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <button className={style.button}>Link</button>
+                      <span className={style.button}>Link</span>
                     </a>
 
                     {"\u00A0"}
@@ -196,7 +202,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className={style.button}>Code</button>
+                      <span className={style.button}>Code</span>
                     </a>
                   </div>
                 </div>
@@ -218,7 +224,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <button className={style.button}>Link</button>
+                      <span className={style.button}>Link</span>
                     </a>
 
                     {"\u00A0"}
@@ -228,7 +234,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className={style.button}>Code</button>
+                      <span className={style.button}>Code</span>
                     </a>
                   </div>
                 </div>

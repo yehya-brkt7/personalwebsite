@@ -29,6 +29,7 @@
 
 .input {
   position: absolute;
+  /* display: hidden; */
 }
 
 .keys {
