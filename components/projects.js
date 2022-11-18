@@ -71,14 +71,13 @@ const Projects = () => {
             value="hearts"
             id="hearts"
           ></input>
-          <input
+          {/* <input
             className={style.input}
             type="radio"
             name="fancy"
             value="spades"
             id="spades"
           />
-          {/* 
           <input
             className={style.input}
             type="radio"
@@ -113,21 +112,6 @@ const Projects = () => {
                 check={false}
                 codelink="https://github.com/yehya-brkt7/footballapp"
                 link="https://football-11.netlify.app/"
-              />
-            </span>
-          </label>
-          <label className={style.label} htmlFor="spades">
-            <span className={style.span}>
-              <ProjectCard
-                title="Sports Quiz"
-                image="quiz.png"
-                info="Sports quiz and trivia app"
-                info2="about the nba and
-                football(soccer)"
-                info3="Score is calculated at the end."
-                check={false}
-                codelink="https://github.com/yehya-brkt7/sportsquiz"
-                link="https://sportsquiz.vercel.app/"
               />
             </span>
           </label>
@@ -168,13 +152,7 @@ const Projects = () => {
                   </div>
                 </div>
               </Grid>
-              <Grid
-                container
-                item
-                xs={10}
-                justifyContent="center"
-                marginBottom="60px"
-              >
+              <Grid container item xs={10} justifyContent="center">
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="footballapp.png"></img>
@@ -192,7 +170,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <span className={style.button}>Link</span>
+                      <button className={style.button}>Link</button>
                     </a>
 
                     {"\u00A0"}
@@ -202,39 +180,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span className={style.button}>Code</span>
-                    </a>
-                  </div>
-                </div>
-              </Grid>
-              <Grid container item xs={10} justifyContent="center">
-                <div className={style.card}>
-                  <div className={style.image}>
-                    <img href="#" src="quiz.png"></img>
-                  </div>
-                  <div className={style.content}>
-                    <h3>Sports Quiz App</h3>
-                    <p>
-                      Sports quiz and trivia app about the nba and
-                      football(soccer). Score is calculated at the end.
-                    </p>
-
-                    <a
-                      href="https://sportsquiz.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <span className={style.button}>Link</span>
-                    </a>
-
-                    {"\u00A0"}
-                    {"\u00A0"}
-                    <a
-                      href="https://github.com/yehya-brkt7/sportsquiz"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className={style.button}>Code</span>
+                      <button className={style.button}>Code</button>
                     </a>
                   </div>
                 </div>

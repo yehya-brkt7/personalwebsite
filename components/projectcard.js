@@ -18,9 +18,9 @@ const ProjectCard = (props) => {
           <figcaption className={style.figcaption}>
             <Grid item xs={12} marginBottom="20px">
               <a href={props.codelink} target="_blank" rel="noreferrer">
-                <span className={style.button} disabled={props.check}>
+                <button className={style.button} disabled={props.check}>
                   Code
-                </span>
+                </button>
               </a>
             </Grid>
             <Grid item xs={12}>
@@ -33,9 +33,9 @@ const ProjectCard = (props) => {
             </Grid>
             <Grid item xs={12}>
               <a href={props.link} target="_blank" rel="noreferrer">
-                <span className={style.button} disabled={props.check}>
+                <button className={style.button} disabled={props.check}>
                   Link
-                </span>
+                </button>
               </a>
             </Grid>
           </figcaption>
