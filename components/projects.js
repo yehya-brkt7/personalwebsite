@@ -126,8 +126,8 @@ const Projects = () => {
                 info3="and a score is calculated at the end"
                 info4=""
                 check={false}
-                codelink="https://github.com/yehya-brkt7/sportsquiz"
-                link="https://sportsquiz.vercel.app/#"
+                codelink="https://github.com/yehya-brkt7/sportsquizapp"
+                link="https://sportsquizapp.vercel.app/#"
               />
             </span>
           </label>
@@ -243,7 +243,7 @@ const Projects = () => {
                     </p>
 
                     <a
-                      href="https://sportsquiz.vercel.app/#"
+                      href="https://sportsquizapp.vercel.app/#"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -253,7 +253,7 @@ const Projects = () => {
                     {"\u00A0"}
                     {"\u00A0"}
                     <a
-                      href="https://github.com/yehya-brkt7/sportsquiz"
+                      href="https://github.com/yehya-brkt7/sportsquizapp"
                       target="_blank"
                       rel="noreferrer"
                     >
