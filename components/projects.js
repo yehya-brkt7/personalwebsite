@@ -71,7 +71,7 @@ const Projects = () => {
             value="hearts"
             id="hearts"
           ></input>
-          {/* <input
+          <input
             className={style.input}
             type="radio"
             name="fancy"
@@ -84,7 +84,7 @@ const Projects = () => {
             name="fancy"
             value="diamonds"
             id="diamonds"
-          /> */}
+          />
 
           <label className={style.label} htmlFor="clubs">
             <span className={style.span}>
@@ -116,6 +116,38 @@ const Projects = () => {
             </span>
           </label>
 
+          <label className={style.label} htmlFor="spades">
+            <span className={style.span}>
+              <ProjectCard
+                title="Sports Quiz"
+                image="quiz.png"
+                info="sports quiz app where the user"
+                info2="answers multiple choice questions"
+                info3="and a score is calculated at the end"
+                info4=""
+                check={false}
+                codelink="https://github.com/yehya-brkt7/sportsquiz"
+                link="https://sportsquiz.vercel.app/#"
+              />
+            </span>
+          </label>
+
+          <label className={style.label} htmlFor="diamonds">
+            <span className={style.span}>
+              <ProjectCard
+                title="Figma design practice"
+                image="figma.png"
+                info="a Figma design transformed into"
+                info2="a React App with a little "
+                info3="personal touch"
+                info4=""
+                check={false}
+                codelink="https://github.com/yehya-brkt7/figmadesignpractice"
+                link="https://figmadesignpractice.vercel.app/"
+              />
+            </span>
+          </label>
+
           <div className={style.container}>
             <Grid container justifyContent="center">
               <Grid
@@ -137,18 +169,18 @@ const Projects = () => {
                       stack crud operations web app where doctors can login and
                       manager their patients
                     </p>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <button className={style.button} disabled={true}>
+                    {/* <a href="" target="_blank" rel="noreferrer">
+                      <span className={style.button} disabled={true}>
                         Link
-                      </button>
+                      </span>
                     </a>
                     {"\u00A0"}
                     {"\u00A0"}
                     <a href="" target="_blank" rel="noreferrer">
-                      <button className={style.button} disabled={true}>
+                      <span className={style.button} disabled={true}>
                         Code
-                      </button>
-                    </a>
+                      </span>
+                    </a> */}
                   </div>
                 </div>
               </Grid>
@@ -170,7 +202,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <button className={style.button}>Link</button>
+                      <span className={style.button}>Link</span>
                     </a>
 
                     {"\u00A0"}
@@ -180,7 +212,73 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className={style.button}>Code</button>
+                      <span className={style.button}>Code</span>
+                    </a>
+                  </div>
+                </div>
+              </Grid>
+
+              <Grid container item xs={10} justifyContent="center">
+                <div className={style.card}>
+                  <div className={style.image}>
+                    <img href="#" src="quiz.png"></img>
+                  </div>
+                  <div className={style.content}>
+                    <h3>Sports Quiz</h3>
+                    <p>
+                      sports quiz app where the user answers multiple choice
+                      questions and a score is calculated at the end
+                    </p>
+
+                    <a
+                      href="https://sportsquiz.vercel.app/#"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <span className={style.button}>Link</span>
+                    </a>
+
+                    {"\u00A0"}
+                    {"\u00A0"}
+                    <a
+                      href="https://github.com/yehya-brkt7/sportsquiz"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className={style.button}>Code</span>
+                    </a>
+                  </div>
+                </div>
+              </Grid>
+
+              <Grid container item xs={10} justifyContent="center">
+                <div className={style.card}>
+                  <div className={style.image}>
+                    <img href="#" src="figma.png.png"></img>
+                  </div>
+                  <div className={style.content}>
+                    <h3>Figma Design</h3>
+                    <p>
+                      a Figma design transformed into a React App with a little
+                      personal touch
+                    </p>
+
+                    <a
+                      href="https://figmadesignpractice.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <span className={style.button}>Link</span>
+                    </a>
+
+                    {"\u00A0"}
+                    {"\u00A0"}
+                    <a
+                      href="https://github.com/yehya-brkt7/figmadesignpractice"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className={style.button}>Code</span>
                     </a>
                   </div>
                 </div>
