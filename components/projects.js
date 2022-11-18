@@ -184,7 +184,13 @@ const Projects = () => {
                   </div>
                 </div>
               </Grid>
-              <Grid container item xs={10} justifyContent="center">
+              <Grid
+                container
+                item
+                xs={10}
+                justifyContent="center"
+                marginBottom="60px"
+              >
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="footballapp.png"></img>
@@ -218,7 +224,13 @@ const Projects = () => {
                 </div>
               </Grid>
 
-              <Grid container item xs={10} justifyContent="center">
+              <Grid
+                container
+                item
+                xs={10}
+                justifyContent="center"
+                marginBottom="60px"
+              >
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="quiz.png"></img>
@@ -251,10 +263,16 @@ const Projects = () => {
                 </div>
               </Grid>
 
-              <Grid container item xs={10} justifyContent="center">
+              <Grid
+                container
+                item
+                xs={10}
+                justifyContent="center"
+                marginBottom="60px"
+              >
                 <div className={style.card}>
                   <div className={style.image}>
-                    <img href="#" src="figma.png.png"></img>
+                    <img href="#" src="figma.png"></img>
                   </div>
                   <div className={style.content}>
                     <h3>Figma Design</h3>
