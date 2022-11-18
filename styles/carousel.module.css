@@ -204,3 +204,19 @@
   color: white;
   font-size: 14px;
 }
+
+.disabledbutton {
+  background-color: gray;
+  opacity: 0.2;
+  cursor: pointer;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.card a {
+  text-decoration: none;
+}

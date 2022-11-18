@@ -92,6 +92,21 @@
   font-size: 14px;
 }
 
+.figure .figcaption .disabledbutton {
+  /* position: relative; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+  cursor: pointer;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  opacity: 0.2;
+}
 .figure .figcaption a {
   text-decoration: none;
 }

@@ -169,18 +169,18 @@ const Projects = () => {
                       stack crud operations web app where doctors can login and
                       manager their patients
                     </p>
-                    {/* <a href="" target="_blank" rel="noreferrer">
-                      <span className={style.button} disabled={true}>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <span className={style.disabledbutton} disabled={true}>
                         Link
                       </span>
                     </a>
                     {"\u00A0"}
                     {"\u00A0"}
                     <a href="" target="_blank" rel="noreferrer">
-                      <span className={style.button} disabled={true}>
+                      <span className={style.disabledbutton} disabled={true}>
                         Code
                       </span>
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </Grid>
