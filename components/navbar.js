@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { Grid } from "@mui/material";
 
 const h3 = {
   color: "#fff",
@@ -74,6 +75,15 @@ const Navbar = () => {
             A CS Graduate and a Front-End Web Developer <br></br>
             <br></br>Click the menu button on top to view more about me
           </h3>
+          <Grid container item xs={12} justifyContent="center">
+            <Grid item xs={2}>
+              <p className="arrow"> &lt; </p>
+            </Grid>
+            <img src="keyboard.png" className="keyboard"></img>
+            <Grid item xs={2}>
+              <p className="arrow"> / &gt; </p>
+            </Grid>
+          </Grid>
         </div>
       </main>
     </>

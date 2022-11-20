@@ -53,7 +53,7 @@ const AboutMe = () => {
       </nav>
 
       <main className="main-content">
-        <div className={style.aboutmecontent}>
+        {/* <div className={style.aboutmecontent}>
           <div id={style.divs} className={style.firstword}>
             I am <br></br> I am <br></br> <br></br> I have
             <br></br> and
@@ -68,14 +68,17 @@ const AboutMe = () => {
               <br></br> 4 months experience as a React developer intern
             </span>
           </div>
-        </div>
-        <div className={style.mobilecontent}>
-          <span>
-            I am a Front end web developer specializing in React. I am 24, from
-            Lebanon and looking htmlFor an opportunity to enter the professional
-            world of web development. I have about a year of experience as a
-            React developer and 4 months experience as a React developer intern
-          </span>
+        </div> */}
+
+        <div className={style["css-typing"]}>
+          <p>I am a React Front end web developer.</p>
+          <p>I am 24, from Lebanon and looking For</p>
+          <p>an opportunity to enter</p>
+          <p> the professional world of web development. </p>
+          <p>I have about a year of experience as</p>
+          <p> a React developer and 4 months </p>
+
+          <p> experience as a React developer intern</p>
         </div>
       </main>
     </>

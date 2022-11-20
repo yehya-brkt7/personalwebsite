@@ -249,7 +249,8 @@ h1 {
 svg text {
   letter-spacing: 5px;
   stroke: #856b0b;
-  font-size: 60px;
+  font-size: 6vw;
+  /* word-wrap: break-word; */
   font-weight: 400;
   stroke-width: 2;
 
@@ -317,4 +318,14 @@ svg text {
     stroke-dashoffstet: -10%;
     fill: rgba(94, 128, 134, 0);
   }
+}
+
+.keyboard {
+  opacity: 0.2;
+  width: 40%;
+  height: auto;
+}
+.arrow {
+  color: #856b0b;
+  font-size: 6vw;
 }
