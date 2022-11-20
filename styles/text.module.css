@@ -111,7 +111,7 @@
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
-  width: 60em;
+  width: 28em;
   /* opacity: 0; */
   -webkit-animation: type 3s steps(40, end);
   animation: type 3s steps(40, end);
