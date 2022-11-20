@@ -4,6 +4,7 @@ import Link from "next/link";
 import Grid from "@mui/material/Grid";
 import style from "../styles/carousel.module.css";
 import ProjectCard from "./projectcard";
+import Background from "./background";
 
 const h3 = {
   color: "#fff",
@@ -13,6 +14,7 @@ const h3 = {
 const Projects = () => {
   return (
     <>
+      <Background />
       <input
         id="page-nav-toggle"
         className="main-navigation-toggle"

@@ -2,10 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { Grid } from "@mui/material";
 import style from "../styles/buttons.module.scss";
+import Background from "./background";
 
 const Hireme = () => {
   return (
     <>
+      <Background />
       <input
         id="page-nav-toggle"
         className="main-navigation-toggle"

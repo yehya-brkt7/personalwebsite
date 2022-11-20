@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Card from "./card";
 import Grid from "@mui/material/Grid";
+import Background from "./background";
 
 const h3 = {
   color: "#fff",
@@ -11,6 +12,7 @@ const h3 = {
 const TechStack = () => {
   return (
     <>
+      <Background />
       <input
         id="page-nav-toggle"
         className="main-navigation-toggle"

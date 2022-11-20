@@ -20,6 +20,11 @@
 }
 .figure:hover .figcaption {
   bottom: 100px;
+  /* pointer-events: none; */
+}
+
+.figure .figcaption {
+  pointer-events: none;
 }
 .figure .h1 {
   /* position: absolute;

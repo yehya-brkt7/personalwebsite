@@ -140,7 +140,7 @@
   border-radius: 15px;
 }
 .container .card:hover {
-  height: 420px;
+  /* height: 420px; */
 }
 
 .container .card .image {

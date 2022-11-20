@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Grid } from "@mui/material";
+import Background from "./background";
 
 const h3 = {
   color: "#fff",
@@ -11,6 +12,7 @@ const h3 = {
 const Navbar = () => {
   return (
     <>
+      <Background />
       <input
         id="page-nav-toggle"
         className="main-navigation-toggle"

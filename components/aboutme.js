@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import style from "../styles/text.module.css";
 import { Grid } from "@mui/material";
+import Background from "./background";
 
 const h3 = {
   color: "#fff",
@@ -11,6 +12,7 @@ const h3 = {
 const AboutMe = () => {
   return (
     <>
+      <Background />
       <input
         id="page-nav-toggle"
         className="main-navigation-toggle"
