@@ -194,7 +194,7 @@
     width: 0;
   }
   99.9% {
-    border-right: 0.15em solid orange;
+    border-right: 0.15em solid #856b0b;
   }
   100% {
     border: none;
@@ -206,13 +206,16 @@
     width: 0;
   }
   99.9% {
-    border-right: 0.15em solid orange;
+    border-right: 0.15em solid #856b0b;
   }
   100% {
     border: none;
   }
 }
 
+.test {
+  background-color: red;
+}
 @keyframes type2 {
   0% {
     width: 0;
@@ -221,7 +224,7 @@
     opacity: 1;
   }
   99.9% {
-    border-right: 0.15em solid orange;
+    border-right: 0.15em solid #856b0b;
   }
   100% {
     opacity: 1;
@@ -237,7 +240,7 @@
     opacity: 1;
   }
   99.9% {
-    border-right: 0.15em solid orange;
+    border-right: 0.15em solid #856b0b;
   }
   100% {
     opacity: 1;
