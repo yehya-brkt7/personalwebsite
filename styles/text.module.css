@@ -213,9 +213,6 @@
   }
 }
 
-.test {
-  background-color: red;
-}
 @keyframes type2 {
   0% {
     width: 0;
