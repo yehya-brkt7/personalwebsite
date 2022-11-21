@@ -3,6 +3,7 @@ import Link from "next/link";
 import Card from "./card";
 import Grid from "@mui/material/Grid";
 import Background from "./background";
+import TechCard from "./techcard";
 
 const h3 = {
   color: "#fff",
@@ -55,80 +56,74 @@ const TechStack = () => {
       </nav>
 
       <main className="main-content">
-        <Grid
-          container
-          justifyContent="center"
-          marginLeft="30px"
-          className="content"
-          spacing={4}
-        >
+        <Grid container justifyContent="center" className="content" spacing={4}>
           <Grid item xs={12}></Grid>
-
           <Grid
             item
             xs={10}
-            sm={5}
-            md={4}
+            md={5.5}
             marginBottom="50px"
-            className="firstcard"
+            container
+            justifyContent="center"
           >
-            <Card
-              title="React"
-              language="Js"
-              type="library"
-              link="https://reactjs.org/"
-              image="react.jpg"
+            <TechCard
+              title="Core Languages"
+              source="html.png"
+              source2="css.png"
+              source3="js.png"
+              title1="HTML"
+              title2="CSS"
+              title3="JAVASCRIPT"
             />
           </Grid>
-          {/* <Grid item sm={2}></Grid> */}
-          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-            <Card
-              title="Next"
-              language="Js"
-              type="framework"
-              link="https://nextjs.org/"
-              image="next.png"
+          <Grid
+            item
+            xs={10}
+            md={5.5}
+            marginBottom="50px"
+            container
+            justifyContent="center"
+          >
+            <TechCard
+              title="Libraries and Frameworks"
+              source="react.png"
+              source2="next.png"
+              title1="REACT"
+              title2="NEXT JS"
             />
           </Grid>
-          {/* <Grid item sm={2}></Grid> */}
-          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-            <Card
-              title="HTML"
-              language="html"
-              type="Markup language"
-              link="https://html.com/"
-              image="html.png"
+          <Grid
+            item
+            xs={10}
+            md={5.5}
+            marginBottom="50px"
+            container
+            justifyContent="center"
+          >
+            <TechCard
+              title="Design / Component / State Management Libraries"
+              source="mui.png"
+              source2="zustand.png"
+              source3="bootstrap.png"
+              title1="MUI"
+              title2="ZUSTAND"
+              title3="BOOTSTRAP"
             />
           </Grid>
-
-          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-            <Card
-              title="Css"
-              language="css"
-              type="bootstrap - css/scss modules"
-              link="https://www.w3schools.com/css/"
-              image="css.png"
-            />
-          </Grid>
-          {/* <Grid item sm={2}></Grid> */}
-          <Grid item xs={10} sm={5} md={4} marginBottom="50px">
-            <Card
-              title="Component Libraries"
-              language="Js"
-              type="MUI - CHAKRA UI - MANTINE UI"
-              link="https://reactjs.org/"
-              image="mui.png"
-              check={true}
-            />
-          </Grid>
-          {/* <Grid item sm={2}></Grid> */}
-          <Grid item xs={10} sm={5} md={4} marginBottom="30px">
-            <Card
-              title="State Management"
-              language="Js"
-              type="Zustand"
-              link="https://github.com/pmndrs/zustand"
-              image="zustand.avif"
+          <Grid
+            item
+            xs={10}
+            md={5.5}
+            marginBottom="50px"
+            container
+            justifyContent="center"
+          >
+            <TechCard
+              title="Tools and Apps"
+              source="vscode.png"
+              source2="git.png"
+              title1="VSCODE"
+              title2="GIT"
             />
           </Grid>
         </Grid>
