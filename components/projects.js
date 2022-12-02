@@ -162,9 +162,9 @@ const Projects = () => {
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="lwah.png"></img>
+                    <h3>internship</h3>
                   </div>
                   <div className={style.content}>
-                    <h3>internship</h3>
                     <p>
                       4 months internship at a local company. I alongside a
                       backend developer and a web designer developed a full
@@ -196,9 +196,9 @@ const Projects = () => {
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="footballapp.png"></img>
+                    <h3>Football App</h3>
                   </div>
                   <div className={style.content}>
-                    <h3>Football App</h3>
                     <p>
                       football app where any user can randomly pick their
                       starting 11 + 1 sub with buttons and display some stats.
@@ -236,9 +236,9 @@ const Projects = () => {
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="quiz.png"></img>
+                    <h3>Sports Quiz</h3>
                   </div>
                   <div className={style.content}>
-                    <h3>Sports Quiz</h3>
                     <p>
                       sports quiz app where the user answers multiple choice
                       questions and a score is calculated at the end
@@ -275,9 +275,9 @@ const Projects = () => {
                 <div className={style.card}>
                   <div className={style.image}>
                     <img href="#" src="figma.png"></img>
+                    <h3>Figma Design</h3>
                   </div>
                   <div className={style.content}>
-                    <h3>Figma Design</h3>
                     <p>
                       a Figma design transformed into a React App with a little
                       personal touch

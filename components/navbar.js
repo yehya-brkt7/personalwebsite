@@ -35,20 +35,20 @@ const Navbar = () => {
       </label>
 
       <nav className="main-navigation">
-        <ul>
-          <li>
+        <ul className="menu-items">
+          <li className="menu-item">
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className="menu-item">
             <Link href="/aboutme">About Me</Link>
           </li>
-          <li>
+          <li className="menu-item">
             <Link href="/techstack">Tech Stack</Link>
           </li>
-          <li>
+          <li className="menu-item">
             <Link href="/projects">Projects</Link>
           </li>
-          <li>
+          <li className="menu-item">
             <Link href="/hireme">Hire me</Link>
           </li>
         </ul>
