@@ -19,10 +19,10 @@ const ProjectCard = (props) => {
               <Grid item xs={12} marginBottom="20px">
                 <a href={props.codelink} target="_blank" rel="noreferrer">
                   <span
+                    disabled={props.check}
                     className={
                       props.check ? style.disabledbutton : style.button
                     }
-                    disabled={props.check}
                   >
                     Code
                   </span>

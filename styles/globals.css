@@ -15,10 +15,6 @@
   box-sizing: border-box;
 }
 body {
-  /* font-family: var(--font-primary);
-  font-size: var(--font-size);
-  line-height: var(--line-height); */
-
   margin: 0;
   background-color: black;
 }
@@ -143,8 +139,6 @@ h1 {
   width: 100%;
   text-align: center;
   z-index: 101;
-  /* border: 1px solid black; */
-  /* padding: 0 calc(var(--space) * 2); */
   transform: translateX(0);
   transition: transform calc(var(--nav-duration) * 2) var(--ease);
 }
@@ -163,7 +157,6 @@ li {
 
 @media only screen and (max-width: 700px) {
   .content {
-    /* margin-left: 0 !important; */
   }
 }
 

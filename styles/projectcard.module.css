@@ -1,12 +1,5 @@
 .figure {
-  /* position: relative; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  /* width: 375px; */
   height: 700px;
-  /* left: 35%;
-  top: 10%; */
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -20,22 +13,18 @@
 }
 .figure:hover .figcaption {
   bottom: 100px;
-  /* pointer-events: none; */
 }
 
 .figure .figcaption {
   pointer-events: none;
 }
+
 .figure .h1 {
-  /* position: absolute;
-  top: 50px;
-  left: 50px; */
   margin: 0;
   padding: 0;
   font-family: "Staatliches", cursive;
   font-weight: lighter;
   color: white;
-  /* font-size: 60px; */
   font-size: 4vw;
   font-weight: 100;
   line-height: 1;
@@ -83,11 +72,7 @@
 }
 
 .figure .figcaption .button {
-  /* position: relative; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center;*/
-  cursor: pointer;
+  cursor: pointer !important;
   margin: 10px 0 0;
   padding: 10px 30px;
   background-color: #1abc9c;
@@ -95,14 +80,11 @@
   border-radius: 5px;
   color: white;
   font-size: 14px;
+  pointer-events: all;
 }
 
 .figure .figcaption .disabledbutton {
-  /* position: relative; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center;*/
-  cursor: pointer;
+  cursor: pointer !important;
   margin: 10px 0 0;
   padding: 10px 30px;
   background-color: gray;
