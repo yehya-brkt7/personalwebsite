@@ -6,12 +6,18 @@
 }
 
 .container {
-  background-color: aliceblue;
+  background-color: #1a1a00;
+  color: white;
   border-radius: 9%;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .title {
   font-size: 25px;
   margin-top: 15px;
+}
+
+.container:hover {
+  color: beige;
+  opacity: 1;
 }

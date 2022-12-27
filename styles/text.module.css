@@ -8,6 +8,36 @@
   line-height: 45px;
 }
 
+.css-typing {
+  /* background-color: #1a1a00;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: -2px 6px 35px 17px rgba(102, 97, 0, 0.75);
+  -webkit-box-shadow: -2px 6px 35px 17px rgba(102, 97, 0, 0.75);
+  -moz-box-shadow: -2px 6px 35px 17px rgba(102, 97, 0, 0.75); */
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.pc {
+  width: 120%;
+  height: auto;
+  opacity: 0.3;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 700px) {
+  .pc {
+    width: 100%;
+    top: 75%;
+  }
+}
 .firstword {
   /* For increasing performance 
                          ID/Class should've been used. 
@@ -97,9 +127,9 @@
   }
 } */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .css-typing p {
-    font-size: 3.8vw !important;
+    font-size: 3.6vw !important;
   }
 }
 

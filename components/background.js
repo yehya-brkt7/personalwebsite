@@ -4,7 +4,6 @@ import style from "../styles/background.module.scss";
 const Background = () => {
   return (
     <>
-      <div className={style.sun}></div>
       <div className={style.container}>
         <div className={style["circle-container"]}>
           <div className={style.circle}></div>
