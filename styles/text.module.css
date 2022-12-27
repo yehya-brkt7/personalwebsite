@@ -17,7 +17,7 @@
   animation-name: showup;
   animation-duration: 20s;
   animation-iteration-count: infinite;
-  color: #856b0b;
+  color: white;
 }
 
 .division {
@@ -104,7 +104,7 @@
 }
 
 .css-typing p {
-  color: #856b0b;
+  color: white;
   border-right: 0.15em solid orange;
   font-family: "Courier";
   font-size: 20px;
