@@ -322,3 +322,7 @@ svg text {
   color: #856b0b;
   font-size: 6vw;
 }
+
+.keyboard:hover {
+  opacity: 0.5;
+}
